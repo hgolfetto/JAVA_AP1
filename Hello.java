@@ -1,6 +1,5 @@
 class ExemploFor{
-
-    public static void main(String[] args) {
+        public static void main(String[] args) {
         int n = 8, c, m = n;
         System.out.println("Os multiplos de " + n + "são: ");
 
