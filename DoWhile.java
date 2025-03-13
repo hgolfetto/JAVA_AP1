@@ -3,7 +3,7 @@ public class DoWhile {
         int n = 8, c = 1, m = n;
 
         System.out.println("Os multiplos de " + n + "são: ");
-
+        
         do{ // pelo menos uma vez será executada
             System.out.println(m);
             c++;
