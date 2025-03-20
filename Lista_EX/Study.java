@@ -1,3 +1,5 @@
+package Lista_EX;
+
 import java.util.Scanner;
 
 public class Study {
