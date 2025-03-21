@@ -11,13 +11,13 @@ public class Fatorial {
         int num = Integer.parseInt(JOptionPane.showInputDialog("Digite um número inteiro positivo: "));
 
         if(num <= 0){
-            JOptionPane.showMessageDialog(null, "Erro! Digite um número inteiro positivo.");
+            JOptionPane.showMessageDialog(null,  "Erro! Digite um número inteiro positivo.", "ERRO", JOptionPane.WARNING_MESSAGE );
         }
         else{
             for(int i = 2; i <= num; i++){
                 fat *= i;
             }
-            JOptionPane.showMessageDialog(null, "O fatorial de " + num + " é " + fat + ".");
+            JOptionPane.showMessageDialog(null, "O fatorial de " + num + " é " + fat + ".", "Calculo", JOptionPane.INFORMATION_MESSAGE);
         }
     
     }

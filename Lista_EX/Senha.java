@@ -27,5 +27,6 @@ public class Senha {
                 JOptionPane.showMessageDialog(null, "Senha incorreta. Tentativas restantes: " + (3 - tentativas));
             }
         }
+
     }
 }
